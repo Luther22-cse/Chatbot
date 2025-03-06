@@ -230,7 +230,7 @@ if not st.session_state.logged_in:
     # --- Login Page ---
     st.title("Welcome to CHAT MESH")  # Changed chatbot name here
     st.write("Please log in to continue.")
-    username = st.text_input("Username", value="mg13")  # Default username
+    username = st.text_input("Username", value="chatteam")  # Default username
     password = st.text_input("Password", type="password", value="manuel123")  # Default password
     if st.button("Log In"):
         # Authentication logic (using the default credentials)
